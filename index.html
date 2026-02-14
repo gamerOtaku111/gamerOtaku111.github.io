@@ -1,42 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamer Otaku</title>
+<meta charset="UTF-8">
+<title>Prithiv’s Anime & Game Hub</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: white;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 30px;
+  font-size: 32px;
+  color: #00fff0;
+  text-shadow: 0 0 15px #00fff0;
+  animation: fadeDown 1.5s ease;
+}
+
+/* SECTIONS */
+.section {
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.game-title {
+  color: #00ff88;
+  text-shadow: 0 0 10px #00ff88;
+}
+
+.anime-title {
+  color: #ff4ecd;
+  text-shadow: 0 0 10px #ff4ecd;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 18px;
+}
+
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.08);
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0,0,0,0.6);
+  transition: 0.4s;
+  animation: fadeUp 1.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.07);
+  box-shadow: 0 0 25px #00fff0;
+}
+
+/* IMAGE */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card p {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0,0,0,0.4);
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+a {
+  color: #00fff0;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
 </head>
+
 <body>
-    <h1>Welcome to Gamer Otaku</h1>
-    <h2>Anime List</h2>
-    <ul>
-        <li><img src="image_url1" alt="Anime 1"> Anime Title 1</li>
-        <li><img src="image_url2" alt="Anime 2"> Anime Title 2</li>
-        <li><img src="image_url3" alt="Anime 3"> Anime Title 3</li>
-        <li><img src="image_url4" alt="Anime 4"> Anime Title 4</li>
-        <li><img src="image_url5" alt="Anime 5"> Anime Title 5</li>
-        <li><img src="image_url6" alt="Anime 6"> Anime Title 6</li>
-        <li><img src="image_url7" alt="Anime 7"> Anime Title 7</li>
-        <li><img src="image_url8" alt="Anime 8"> Anime Title 8</li>
-        <li><img src="image_url9" alt="Anime 9"> Anime Title 9</li>
-        <li><img src="image_url10" alt="Anime 10"> Anime Title 10</li>
-    </ul>
 
-    <h2>Games List</h2>
-    <ul>
-        <li><img src="game_image_url1" alt="Game 1"> Game Title 1</li>
-        <li><img src="game_image_url2" alt="Game 2"> Game Title 2</li>
-        <li><img src="game_image_url3" alt="Game 3"> Game Title 3</li>
-        <li><img src="game_image_url4" alt="Game 4"> Game Title 4</li>
-        <li><img src="game_image_url5" alt="Game 5"> Game Title 5</li>
-        <li><img src="game_image_url6" alt="Game 6"> Game Title 6</li>
-        <li><img src="game_image_url7" alt="Game 7"> Game Title 7</li>
-        <li><img src="game_image_url8" alt="Game 8"> Game Title 8</li>
-        <li><img src="game_image_url9" alt="Game 9"> Game Title 9</li>
-        <li><img src="game_image_url10" alt="Game 10"> Game Title 10</li>
-    </ul>
+<header>🔥 PRITHIV’S ANIME & GAME HUB 🔥</header>
 
-    <h2>Contact Information</h2>
-    <p>Instagram: <a href="https://www.instagram.com/pr1thv_rj___?igsh=OXgwaDhsejR2OGFq">pr1thv_rj___</a></p>
-    <p>Email: <a href="mailto:prithivirajredder@gmail.com">prithivirajredder@gmail.com</a></p>
+<!-- GAMES -->
+<div class="section">
+<h2 class="game-title">🎮 TOP GAMES</h2>
+<div class="grid">
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Roblox_Logo_2022.jpg">
+    <p>Roblox</p>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png">
+    <p>Minecraft</p>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/1/1e/Mobile_Legends_Bang_Bang_logo.png">
+    <p>MLBB</p>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/09/PUBG_Mobile_logo.jpg">
+    <p>BGMI</p>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/5d/Genshin_Impact_key_visual.jpg">
+    <p>Genshin Impact</p>
+  </div>
+
+</div>
+</div>
+
+<!-- ANIME -->
+<div class="section">
+<h2 class="anime-title">🎌 ANIME RECOMMENDATIONS</h2>
+<div class="grid">
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg">
+    <p>Naruto</p>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/One_Piece,_Volume_61_Cover.jpg">
+    <p>One Piece</p>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/f/f7/Attack_on_Titan_S4_key_visual.jpg">
+    <p>Attack on Titan</p>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/6a/Kimetsu_no_Yaiba_volume_1_cover.jpg">
+    <p>Demon Slayer</p>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3f/Jujutsu_Kaisen_volume_1_cover.jpg">
+    <p>Jujutsu Kaisen</p>
+  </div>
+
+</div>
+</div>
+
+<!-- CONTACT -->
+<div class="contact">
+<h2>📩 Contact Me</h2>
+<p>
+Gmail: <b>prithivirajredder@gmail.com</b><br><br>
+Instagram:
+<a href="https://www.instagram.com/pr1thv_rj___?igsh=OXgwaDhsejR2OGFq" target="_blank">
+@pr1thv_rj___
+</a>
+</p>
+</div>
+
 </body>
-</html>
+    </html>
